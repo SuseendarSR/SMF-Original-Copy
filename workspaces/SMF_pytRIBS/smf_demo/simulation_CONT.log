@@ -30,17 +30,17 @@ Parameter =   TLINKE			2.5
 Parameter =   BASEFLOW			0.2
 Parameter =   VELOCITYCOEF			1.2
 Parameter =   VELOCITYRATIO			60
-Parameter =   KINEMVELCOEF			3
+Parameter =   KINEMVELCOEF			3.2
 Parameter =   FLOWEXP			0.3
-Parameter =   CHANNELROUGHNESS			0.032
-Parameter =   CHANNELWIDTHCOEFF			1.5
+Parameter =   CHANNELROUGHNESS			0.03
+Parameter =   CHANNELWIDTHCOEFF			0.5
 Parameter =   CHANNELWIDTHEXPNT			0.54
 Parameter =   CHANNELWIDTHFILE			
 Parameter =   WIDTHINTERPOLATION			0
 Parameter =   OPTEVAPOTRANS			1
 Parameter =   OPTINTERCEPT			2
 Parameter =   GFLUXOPTION			2
-Parameter =   OPTSNOW			1
+Parameter =   OPTSNOW			0
 Parameter =   MINSNTEMP			-50
 Parameter =   SNLIQFRAC			0.065
 Parameter =   OPTRADSHELT			0
@@ -179,8 +179,8 @@ Hydrograph File Extension: 	mrf
 
 Channel Characteristics:
 
-Kinematic velocity coefficient: 3.000000
-Roughness coefficient: 		0.032000
+Kinematic velocity coefficient: 3.200000
+Roughness coefficient: 		0.030000
 Channel width: 			Variable
 
 Channel widths determined from geomorphic relations...
@@ -305,11 +305,11 @@ Hydrologic Simulation begins...
  tRIBS Water Balance Calculations
 
  Basin Rainfall = 0.000000 (m3)
- Basin Evaporation = 2.438602 (m3)
+ Basin Evaporation = 4.644965 (m3)
  Basin Runoff = 0.000000 (m3)
  Basin Canopy Storage = 0.000000 (m3)
- Basin Unsaturated Zone Storage = 1467.901001 (m3)
- Basin Saturated Zone Storage = 96.763948 (m3)
+ Basin Unsaturated Zone Storage = 2146.461064 (m3)
+ Basin Saturated Zone Storage = 133.047718 (m3)
 -----------------------------------
 
 
